@@ -422,9 +422,9 @@ a.btn:hover {
 
    
     .tm-circle-img-container p, [class*="circle"] p {
-        font-size: 0.85rem !important;
-        line-height: 1.4 !important;
-        margin: 0 !important;
+        font-size: 0.7rem !important;
+        line-height: 1.2 !important;
+        margin: 0 10px !important;
     }
     
     .tm-circle-img-container h2, [class*="circle"] h2 {
