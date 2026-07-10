@@ -383,6 +383,33 @@ a.btn:hover {
    .small mb-4 tm-footer-text {
     color: antiquewhite;
    }
+
+   @media (max-width: 991px) {
+    
+    html, body, .tm-container, main, section, form {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        margin: 0 !important;
+        padding: 10px !important;
+    }
+    
+    .row, [class*="col-"] {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+    
+    .tm-circle-img-container, [class*="circle"] {
+        width: 280px !important;
+        height: 280px !important;
+        max-width: 280px !important;
+        max-height: 280px !important;
+    }
+}
     
 
 
